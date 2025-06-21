@@ -1759,7 +1759,7 @@ Cuando haya funcionado, verás los valores reflejados en los gauges como se mues
 
 
 
-![](https://github.com/user-attachments/assets/21bb8861-5fea-4f6a-b5ca-a05c77f43732)
+https://github.com/user-attachments/assets/21bb8861-5fea-4f6a-b5ca-a05c77f43732
 
 
 

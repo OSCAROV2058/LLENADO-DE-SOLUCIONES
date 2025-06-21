@@ -603,11 +603,11 @@ int lectura2 = analogRead(potPin2);
 
 4. Hacer la conexion del sensor ultrasonico, DHT22, el buzzer y los potenciometros con la ESP32 como se muestra en la siguente imagen para el llenado de tanque.
 
-![]()
+![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/CONEXION%20ESPx%20bolsas.png?raw=true)
 
 5. Hacer la conexion del DS18B20 (sensor digital de temperatura), el hx711 y los potenciometros con la ESP32 como se muestra en la siguente imagen para el llenado de bolsas.
 
-![]()
+![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/Image20250621092508.png?raw=true)
 
 6. Abrir la plataforma de NODE-RED, instalar el siguiente nodo e importar la siguente programación:
 
@@ -1746,6 +1746,12 @@ int lectura2 = analogRead(potPin2);
     }
 ]
 ```
+7. Se obtendra el siguiente diagrama en NODE RED para poder observar los gauges, las alertas y las graficas.
+
+![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/node%20red%20completo.png?raw=true)
+
+![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/node%20red%20bolsas.png?raw=true)
+
 7. Al hacer la conexion WIFI en la pagina NODE RED debemos seleccionar el boton DEPLOY para cargar los datos.
 
 ## Instrucciónes de operación
@@ -1766,19 +1772,10 @@ int lectura2 = analogRead(potPin2);
 
 Cuando haya funcionado, verás los valores reflejados en los gauges como se muestra en las siguentes imagenes.
 
-![]()
+![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/gauges%20node%20red.png?raw=true)
 
-![]()
+![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/gauges%20node%20red%202.png?raw=true)
 
-![]()
-
-![]()
-
-![]()
-
-![]()
-
-![]()
 
 ## Creditos
 

@@ -1766,6 +1766,33 @@ int lectura2 = analogRead(potPin2);
 
 Cuando haya funcionado, verás los valores reflejados en los gauges como se muestra en las siguentes imagenes.
 
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+## Creditos
+
+Desarrollado por:
+
+
+
+
+
+- Ing. Oscar Jair Ocampo Villarreal
+- ([github](https://github.com/OSCAROV2058))
+
+
+
 
 
 

@@ -1755,7 +1755,7 @@ Cuando haya funcionado, verás los valores reflejados en los gauges como se mues
 
 ![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/gauges%20node%20red%202.png?raw=true)
 
-![](TELEGRAM)
+![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/image.png?raw=true)
 
 
 

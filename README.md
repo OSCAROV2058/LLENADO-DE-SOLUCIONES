@@ -1761,6 +1761,12 @@ Cuando haya funcionado, verás los valores reflejados en los gauges como se mues
 
 ![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/gauges%20node%20red%202.png?raw=true)
 
+- Se necesita agregar un token al nodo de telegram para poder recibir las notiicaciones.
+- 
+```
+  Token: 7692821276:AAGfUKBE3L9G_YvjaoKldZWWt7CNgZKchW0
+```
+
 ![](https://github.com/OSCAROV2058/LLENADO-DE-SOLUCIONES/blob/main/image.png?raw=true)
 
 
@@ -1778,8 +1784,8 @@ Desarrollado por:
 - Ing. Rivera Hernandez Jaqueline
 - ([github](https://github.com/jaquelineriverh))
 
-- Ing. 
-- ([github]())
+- Ing. Jose David Ayala Villalba
+- ([github](https://github.com/DaybeatAV))
 
 - Ing. Oscar Jair Ocampo Villarreal
 - ([github](https://github.com/OSCAROV2058))

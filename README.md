@@ -295,9 +295,7 @@ if(!tanque_lleno){
     else {
     volumen_actual = volumen_presente;
     }
-  
 
-//no mover nada aqui
   if (!client.connected()) {
     reconnect();
   }
@@ -380,9 +378,7 @@ float temperatura=0;
 OneWire oneWire(14);
 DallasTemperature sensor(&oneWire);
 
-
 // Update these with values suitable for your network.
-
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 const char* mqtt_server = "52.57.49.38";
@@ -397,7 +393,6 @@ char msg[MSG_BUFFER_SIZE];
 int value = 0;
 
 void setup_wifi() {
-
   delay(10);
   // We start by connecting to a WiFi network
   Serial.println();
@@ -439,7 +434,6 @@ void callback(char* topic, byte* payload, unsigned int length) {
     digitalWrite(BUILTIN_LED, HIGH);  
     // Turn the LED off by making the voltage HIGH
   }
-
 }
 
 void reconnect() {
@@ -466,8 +460,6 @@ void reconnect() {
   }
 }
 
-
-
 void setup() 
 {
     pinMode(BUILTIN_LED, OUTPUT);     // Initialize the BUILTIN_LED pin as an output
@@ -488,16 +480,15 @@ void loop()
      peso= scale.get_units(5);
    if (abs(peso) <= 0) 
     {
-      scale.tare();}
+      scale.tare();
+}
 
     // Mostrar el peso en el monitor serie
     Serial.print("Peso: ");
     Serial.print(peso, 2);
     Serial.println(" kg");
-    
-  }else{ Serial.println("cargando");}
-  
-  
+  }
+else{ Serial.println("cargando");}
 
   delay(1000);  // Esperar 1 segundo antes de la próxima lectura
   if (!lotelleno) {  
@@ -528,7 +519,6 @@ void loop()
   else{
     numbolsasmin=0.0;  //el flujo simulado deja de contar y el tanque esta lleno
   }
-  
 
   sensor.requestTemperatures();
   temperatura=sensor.getTempCByIndex(0);
@@ -540,14 +530,8 @@ int lectura2 = analogRead(potPin2);
 
   Serial.println("PRESSURE " + String(presion));
   Serial.println(" bar");
-
-
-
   delay(1000);
 
-
-
-  //no mmover nada
    if (!client.connected()) {
     reconnect();
   }
@@ -569,14 +553,9 @@ int lectura2 = analogRead(potPin2);
     doc["VOLUMENBOLSA"]= String(volumendebolsa,1);
     doc["PRESION"]= String(presion);
     doc["TEMP"]= String(temperatura,1);
-
-    
-   
-
     String output;
     
     serializeJson(doc, output);
-
     Serial.print("Publish message: ");
     Serial.println(output);
     Serial.println(output.c_str());

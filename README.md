@@ -10,7 +10,9 @@ DIANEAL PD4 es una solución para diálisis peritoneal. Elimina el agua y los pr
 
 ### Descripcion
 
-En este proyecto haremos la demostracion del mezclado de un tanque de soluciones, tomando en cuenta un tanque de 50 mil litros, teniendo valores de referencia como su pH, la temperatura y la humedad donde se esta mezclando el tanque, asi como un sensor de nivel que en la pantalla muestra cuanto tienes de volumen, obteniendo un flujo de entrada de agua para realizar la mezcla y un flujo de salida para el llenado de bolsas de solucion, al mismo tiempo se estara graficando los valores obtenidos y mandando alertas mediante la mensajeria Telegram.
+En este proyecto haremos la demostracion del mezclado de un tanque asi como el llenado de bolsas de solucion Dianeal de 6 litros mediante una boquilla, tomando en cuenta un tanque de 50 mil litros, teniendo valores de referencia como su pH, la temperatura y la humedad donde se esta mezclando el tanque, asi como un sensor de nivel que en la pantalla muestra cuanto tienes de volumen, obteniendo un flujo de entrada de agua para realizar la mezcla y un flujo de salida para el llenado de bolsas de solucion, al mismo tiempo se estara graficando los valores obtenidos y mandando alertas mediante la mensajeria Telegram.
+
+
 
 ## Material necesario
 

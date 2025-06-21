@@ -4,7 +4,9 @@
 
 Los tanque de preparación de soluciones líquidas estériles son equipos de alta gama diseñado específicamente para la industria farmacéutica. Utiliza tecnología de automatización avanzada y procedimientos operativos estériles para proporcionar un apoyo fiable a los procesos de preparación y producción de medicamentos.
 
-La avanzada tecnología de automatización permite preparar y dosificar soluciones con precisión, mejorando la eficacia de la producción y reduciendo los riesgos operativos. El estricto diseño estéril garantiza una gran pureza y esterilidad durante el proceso de preparación, cumpliendo los requisitos de las Buenas Prácticas de Fabricación (BPF) para la producción farmacéutica.
+La avanzada tecnología de automatización permite preparar y dosificar soluciones Dianeales con precisión, mejorando la eficacia de la producción y reduciendo los riesgos operativos. El estricto diseño estéril garantiza una gran pureza y esterilidad durante el proceso de preparación, cumpliendo los requisitos de las Buenas Prácticas de Fabricación (BPF) para la producción farmacéutica.
+
+DIANEAL PD4 es una solución para diálisis peritoneal. Elimina el agua y los productos de desecho de la sangre. Además, corrige los niveles anormales de los distintos componentes de la sangre. DIANEAL PD4 contiene diferentes concentraciones de glucosa.
 
 ### Descripcion
 
@@ -25,6 +27,10 @@ En este proyecto haremos la demostracion del mezclado de un tanque de soluciones
 - Potenciometro
 
 - Buzzer
+
+- HX710 Sensor de carga
+
+- Dallas DS18B20 (Sensor digital de temperatura)
 
 ## Instrucciones de preparación de entorno
 
